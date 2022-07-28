@@ -1,4 +1,4 @@
-Usage
+## Usage
 
 Simply clone this repository and run:
 
@@ -9,7 +9,7 @@ docker-compose up -d
 ```
 
 
-What To Do Next
+## What To Do Next
 
 
 Try Nmap
@@ -17,7 +17,7 @@ Try Nmap
 sudo nmap -Pn -p 3389 172.17.0.2
 ```
 
-or 
+### or 
 
 Install an RDP client of your choice for Linux. A popular one is RDesktop:
 
@@ -31,9 +31,10 @@ sudo rdesktop 172.17.0.2
 ```
 
 
-Creds 
+## Creds 
 
 The Windows box that we have installed has two built-in accounts:
 
-Username: vagrant Password: vagrant
-Username: Administrator Password: vagrant
+### Username: vagrant Password: vagrant
+
+### Username: Administrator Password: vagrant
