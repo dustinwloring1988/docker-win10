@@ -8,7 +8,8 @@ Simply clone this repository and run:
 ```bash
 git clone https://github.com/dustinwloring1988/docker-win10
 
-docker-compose up -d
+docker-compose up -d  
+# You might have to use sudo for the docker-compose command to work
 ```
 
 
