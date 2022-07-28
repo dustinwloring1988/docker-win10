@@ -11,6 +11,12 @@ git clone https://github.com/dustinwloring1988/docker-win10
 docker-compose up -d  
 
 # You might have to use sudo for the docker-compose command to work
+#Below is what the error would look like.
+#
+#ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
+
+#If it's at a non-standard location, specify the URL with the DOCKER_HOST environment variable.
+
 ```
 
 
