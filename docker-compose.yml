@@ -7,6 +7,8 @@
 #
 # Vulhub lab
 #10.1.1.16        win10
+version: '2.2'
+services:
 
  win10:
    build: ./win10
