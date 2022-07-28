@@ -2,8 +2,11 @@ Usage
 
 Simply clone this repository and run:
 
-docker-compose up -d
+```bash
+git clone https://github.com/dustinwloring1988/docker-win10
 
+docker-compose up -d
+```
 
 
 What To Do Next
