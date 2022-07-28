@@ -12,7 +12,7 @@ docker-compose up -d
 ## What To Do Next
 
 
-Try to Nmap the windows box using the following
+Try to Nmap the windows box using the following:
 ```bash
 sudo nmap -Pn -p 3389 172.17.0.2
 ```
