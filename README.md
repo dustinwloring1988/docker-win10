@@ -1,5 +1,8 @@
 ## Usage
 
+Please not you must have docker-ce and docker-compose already installed but if not see the bottom for the installation instructions.
+
+
 Simply clone this repository and run:
 
 ```bash
@@ -38,3 +41,27 @@ The Windows box that we have installed has two built-in accounts:
 ### Username: vagrant Password: vagrant
 
 ### Username: Administrator Password: vagrant
+
+## Install Docker and Docker-Compose
+
+```bash
+sudo apt-get update
+
+sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+
+curl -fSSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add
+
+sudo apt-key fingerprint 0EBFCD88
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+sudo apt update
+
+sudo apt install docker-ce -y
+
+sudo apt install docker-compose
+
+sudo systemctl start docker
+
+sudo systemctl enable docker
+```
