@@ -11,7 +11,7 @@ version: '2.2'
 services:
 
  win10:
-   build: .
+   build: ./win10
    container_name: win10
    hostname: win10
    stdin_open: true
