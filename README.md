@@ -31,7 +31,7 @@ sudo rdesktop 172.17.0.2
 ```
 
 
-## Creds 
+## Creds - For the Windows box
 
 The Windows box that we have installed has two built-in accounts:
 
