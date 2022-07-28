@@ -13,9 +13,7 @@ docker-compose up -d
 # You might have to use sudo for the docker-compose command to work
 #Below is what the error would look like if you just needed to put sudo in front of it.
 
-#
 #ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
-
 #If it's at a non-standard location, specify the URL with the DOCKER_HOST environment variable.
 
 ```
